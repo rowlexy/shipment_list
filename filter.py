@@ -22,8 +22,8 @@ def filtered_shipments(shipments, load_num=None, month=None, pu_date=None, origi
         load_results.append(loads)
     return load_results
 
-for loads in filtered_shipments(shipments, status="Delivered"):
-    print(loads)
+# for loads in filtered_shipments(shipments, status="Delivered"):
+#     print(loads)
     
 def alternate_filter(shipments, **param):
     load_results = []
@@ -43,4 +43,6 @@ def alternate_filter(shipments, **param):
 
 print('\n Shipments Collected In June \n')
 for loads in alternate_filter(shipments, month="06"):
+    print(loads)
+for loads in alternate_filter(shipments, status="Delivered"):
     print(loads)
