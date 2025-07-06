@@ -44,5 +44,7 @@ def alternate_filter(shipments, **param):
 print('\n Shipments Collected In June \n')
 for loads in alternate_filter(shipments, month="06"):
     print(loads)
-for loads in alternate_filter(shipments, status="Delivered"):
+
+print('\n Shipments Delivered')
+for loads in alternate_filter(shipments, Status="Delivered"):
     print(loads)
