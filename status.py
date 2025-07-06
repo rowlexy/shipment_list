@@ -1,5 +1,8 @@
 import csv
+import smtplib
 from filter import alternate_filter, filtered_shipments
+from email.message import EmailMessage
+
 with open("updated_shipments.csv") as shipments_file:
     reader = csv.DictReader(shipments_file)
     shipment_list = list(reader)
@@ -15,3 +18,4 @@ with open("delivered.csv", "w", newline="") as file_delivered:
     writer = csv.DictWriter(file_delivered, fieldnames=delivered_shipments[0].keys())
     writer.writeheader()
     writer.writerows(delivered_shipments)
+    
