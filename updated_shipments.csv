@@ -1,0 +1,10 @@
+LoadNum,ActivityDate,Origin,Destination,Status,ApptNum,DeliveryDate
+SHP002,01-07-2025,Nogara,Ludwigsfelde,Delivered,N/A,TBD
+SHP001,04-07-2025,Verrebroek,Barcelona,Picked Up,N/A,TBD
+SHP003,26-06-2025,Verrebroek,Campogalliano,Delivered,N/A,TBD
+SHP004,30-06-2025,Leicester,Born,Booked,N/A,TBD
+SHP006,04-07-2025,Faulliet,Born,Checked In,N/A,TBD
+SHP007,04-07-2025,Verrebroek,Middleton,Picked Up,N/A,TBD
+SHP008,04-07-2025,Verrebroek,Middleton,Loading,N/A,TBD
+SHP019,03-07-2025,Nogara,Leicester,Unloading,N/A,TBD
+SHP009,03-07-2025,Verrebroek,Leicester,Unloading,N/A,TBD
